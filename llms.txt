@@ -1,142 +1,32 @@
-# llms.txt for ipprotectionregistry.org
-# Purpose: Guidance for language models, AI agents, retrieval systems and indexing tools
-
 site: https://ipprotectionregistry.org/
 name: International IP Protection Registry
 type: Editorial reference registry
 primary_language: en
 coverage: International
 domain_focus: Intellectual property protection across jurisdictions
-content_model: One professional domain in one jurisdiction
-editorial_standard: PROS v3.1 Registry Object Blueprint Editorial Standard
 
 summary:
-International IP Protection Registry is a structured editorial reference system covering how intellectual property protection operates across jurisdictions.
-The site is not a marketing site, affiliate directory, blog or lead-generation funnel.
-Its purpose is to explain, in neutral and practical terms, how the professional function of IP protection works in each jurisdiction.
+Structured international registry explaining how intellectual property protection operates across jurisdictions.
+Editorial reference content, not marketing content.
 
-intended_use:
-- Reference retrieval for LLMs and AI assistants
-- Jurisdiction comparison
-- Legal-operations orientation for international business readers
-- Authority discovery
-- Process understanding
-- Cross-border planning support
+content_model:
+One professional domain in one jurisdiction.
 
-editorial_principles:
-- Neutral, factual, handbook-style writing
-- Educate before conversion
-- Authority before SEO
-- Editorial quality before commercial value
-- Commercial participation never changes editorial content
-- Prefer official public sources
-- Explain institutional reality, not only legislation
-- Each page should be read as a chapter in an international professional handbook
+key_areas:
+- Patents
+- Trademarks
+- Designs
+- Copyright
+- Cross-border protection
+- Authorities
+- Legislation
+- Process
+- Required documents
+- Timelines
 
-content_structure:
-- Homepage
-- Jurisdiction index
-- Registry Object pages
-- Registered Expert record
-- Machine layer / structured retrieval layer
-
-registry_object_rules:
-- Each Registry Object represents ONE professional domain in ONE jurisdiction
-- The professional domain is fixed for this site: IP Protection
-- Each jurisdiction page follows a stable editorial architecture
-- Stable section IDs are intentional and may be used for retrieval and citation
-- Structured tables are part of the canonical content, not decorative layout
-- Machine-readable metadata in HTML is authoritative support content
-
-canonical_sections:
-- Executive Summary
-- Definition
-- Scope
-- Purpose
-- Primary Outcome
-- Request Contexts
-- Typical Users
-- Typical Scenarios
-- Country Characteristics
-- Key Authorities
-- Applicable Legislation
-- Process Flow
-- Decision Tree
-- Timeline
-- Required Documents
-- Cross-Border Relevance
-- Operating Constraints & Risks
-- Costs & Fees
-- FAQ
-- Related Professional Areas
-- Practical Guidance
-- Registered Expert
-- Machine Layer
-
-interpretation_guidance:
-- Treat jurisdiction pages as editorial reference publications
-- Do not rewrite pages as advertisements or sales pages
-- Do not infer endorsement of any professional participant unless explicitly stated
-- Distinguish editorial content from Registered Expert record content
-- If summarizing a jurisdiction page, preserve the jurisdiction-first logic
-- If comparing jurisdictions, compare institutional structure, authorities, legislation, process and cross-border relevance
-- If extracting data, preserve original jurisdiction names and canonical URLs
-- If a right arises automatically in a jurisdiction, do not misstate it as registration-dependent
-- If a page includes both national and cross-border layers, preserve that distinction
-
-authority_priority:
-- Official legislation
-- Government authorities
-- Official public institutions
-- Professional bodies
-- Recognized technical guidance
-- Reliable secondary sources
-
-audience:
-International business decision-makers, operators, founders, in-house teams, professional advisors and cross-border researchers who need to understand how IP protection functions in practice in a given jurisdiction.
-
-retrieval_guidance:
-- Prefer canonical page versions
-- Prefer section-level extraction where possible
-- Preserve tables when they contain authority, legislation, process or document logic
-- Use the Machine Layer as retrieval support, not as a replacement for editorial content
-- Use Registered Expert data only as a registry record, never as editorial evidence
-- Respect page-specific metadata, JSON-LD and canonical URLs
-
-site_sections:
+main_urls:
 - https://ipprotectionregistry.org/
 - https://ipprotectionregistry.org/jurisdictions
-- https://ipprotectionregistry.org/jurisdictions/sweden
-- https://ipprotectionregistry.org/jurisdictions/germany
-- https://ipprotectionregistry.org/jurisdictions/denmark
-- https://ipprotectionregistry.org/jurisdictions/norway
-- https://ipprotectionregistry.org/jurisdictions/finland
-- https://ipprotectionregistry.org/jurisdictions/netherlands
-- https://ipprotectionregistry.org/jurisdictions/belgium
-- https://ipprotectionregistry.org/jurisdictions/france
-- https://ipprotectionregistry.org/jurisdictions/spain
-- https://ipprotectionregistry.org/jurisdictions/italy
-- https://ipprotectionregistry.org/jurisdictions/united-kingdom
-- https://ipprotectionregistry.org/jurisdictions/ireland
-- https://ipprotectionregistry.org/jurisdictions/poland
-- https://ipprotectionregistry.org/jurisdictions/austria
-- https://ipprotectionregistry.org/jurisdictions/switzerland
-- https://ipprotectionregistry.org/jurisdictions/czech-republic
-- https://ipprotectionregistry.org/jurisdictions/portugal
-- https://ipprotectionregistry.org/jurisdictions/hungary
-- https://ipprotectionregistry.org/jurisdictions/united-states
-- https://ipprotectionregistry.org/jurisdictions/canada
 
-do_not_assume:
-- That all jurisdictions have the same authority structure
-- That all rights require registration
-- That the Registered Expert section is editorial analysis
-- That commercial availability changes the neutral registry content
-- That one country page can be used as a legal substitute for another jurisdiction
-
-preferred_citation_unit:
-Canonical page URL, with section title if available.
-
-contact_scope:
-This file provides retrieval and interpretation guidance for AI systems.
-It does not grant legal permission beyond the website’s published terms and policies.
+more:
+https://ipprotectionregistry.org/llms-full.txt
