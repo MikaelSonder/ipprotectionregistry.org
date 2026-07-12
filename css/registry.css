@@ -82,6 +82,18 @@ a:focus-visible {
   margin-bottom: 26px;
 }
 
+.registry-breadcrumb {
+  margin-bottom: 14px;
+  font-size: 12px;
+  color: var(--muted);
+  font-family: Consolas, Monaco, monospace;
+  letter-spacing: 0.3px;
+}
+
+.registry-breadcrumb a {
+  color: var(--muted);
+}
+
 .registry-toolbar {
   display: flex;
   justify-content: space-between;
@@ -148,6 +160,7 @@ a:focus-visible {
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   margin-bottom: 24px;
+  padding-inline: 2px;
 }
 
 .registry-nav-list {
@@ -240,6 +253,10 @@ a:focus-visible {
 .registry-table {
   width: 100%;
   border-collapse: collapse;
+}
+
+.registry-table tr:nth-child(even) {
+  background: var(--surface);
 }
 
 .registry-table td {
@@ -346,6 +363,12 @@ a:focus-visible {
     width: 100%;
   }
 
+  .registry-table tr {
+    margin-bottom: 14px;
+    border-bottom: 1px solid #ddd;
+    background: transparent !important;
+  }
+
   .registry-table td:first-child {
     width: auto;
     padding-bottom: 2px;
@@ -371,6 +394,15 @@ a:focus-visible {
     font-size: 15px;
   }
 
+  .registry-title {
+    letter-spacing: 1px;
+  }
+
+  .registry-subtitle {
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+
   .registry-nav-list {
     gap: 8px 12px;
   }
@@ -388,6 +420,8 @@ a:focus-visible {
   body {
     padding: 20px;
     font-size: 12px;
+    color: #000;
+    background: #fff;
   }
 
   .registry-nav,
@@ -398,5 +432,16 @@ a:focus-visible {
 
   .registry-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .registry-panel,
+  .registry-note,
+  .registry-tree {
+    break-inside: avoid;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
   }
 }
